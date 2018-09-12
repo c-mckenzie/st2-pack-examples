@@ -1,8 +1,8 @@
 ---
-name: orquesta-test-action-less-tasks
+name: orchestra-sequential
 description: A basic sequential workflow.
-runner_type: orquesta
-entry_point: workflows/tests/orquesta-test-action-less-tasks.yaml
+runner_type: orchestra
+entry_point: workflows/orchestra-sequential.yaml
 enabled: true
 parameters:
   name:
